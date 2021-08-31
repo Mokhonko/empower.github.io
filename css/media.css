@@ -1,0 +1,266 @@
+@media (min-width: 2020px) and (max-width: 2560px) {
+    .header{
+        background: linear-gradient(90deg,#fbceb9,#ced3d4);
+    }
+    .header-right img{
+        display: block;
+    }
+}
+@media (max-width: 1340px){
+    .container{
+        padding: 0 80px !important;
+    }
+}
+@media (max-width: 1200px){
+    .menu__list li + li {
+        padding-left: 35px;
+    }
+    .menu__list{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1130px){
+    .navbar{
+        display: none;
+    }
+    .header__btn{
+        float: none;
+    }
+    .header__contacts{
+        text-align: center;
+    }
+    .header__btn:before{
+        display: none;
+    }
+    .header__btn:before{
+        display: block;
+    }
+    .header__btn-menu{
+        display: block;
+        cursor: pointer;
+    }
+    .header-title{
+        font-size: 47px;
+    }
+    .header-content{
+        padding-bottom: 85px;
+    }
+    .menu{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        background-color: rgb(0,0,0);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .menu__list{
+        margin: 80px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .menu__list li{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .menu a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .menu li + li{
+        padding-left: 0;
+    }
+    .menu .closebtn {
+        /* position: absolute; */
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    .mobile__input input{
+        display: none;
+    }
+    .mobile__input button{
+        position: inherit !important;
+        border-radius: 50px !important;
+        left: 90px;
+    }
+    .main-block-title-content-left{
+        width: 435px;
+    }
+}
+@media (max-width: 1050px){
+    h2{
+        font-size: 46px;
+        line-height: 53px;
+    }
+    .logo{
+        padding-right: 0;
+    }
+    .header-title{
+        font-size: 50px;
+    }
+    .search{
+        padding: 20px 0;
+    }
+    .header{
+        background: linear-gradient(90deg,#fbceb9,#ced3d4);
+    }
+    .header-right img{
+        display: block;
+    }
+    .header-left{
+        margin-right: 0;
+    }
+    .main-block-wrapper h2{
+        font-size: 46px;
+        line-height: 53px;
+    }
+    .app-text h2 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+}
+@media (max-width: 816px){
+    .header__content{
+        padding-bottom: 60px;
+    }
+    .company-badge-panel{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .company-badge{
+        padding: 8px;
+    }
+    .col-lg-6{
+        width: 100%;
+    }
+    #cardPeach,
+    #cardBlack{
+        height: 805px;
+    }
+    .mobile__input button{
+        left: 115px;
+    }
+}
+@media (max-width: 726px){
+    .container{
+        padding: 0 20px !important;
+    }
+}
+@media (max-width: 668px){
+    form{
+        width: auto;
+    }
+    .mobile__input button{
+        left: 0px;
+    }
+    .footer a{
+        padding-left: 35px;
+    }
+}
+@media (max-width: 566px){
+    .header-right{
+        display: none;
+    }
+    .header-left{
+        width: auto;
+        text-align: center;
+    }
+    .header-text{
+        width: auto;
+    }
+    .download{
+        justify-content: center;
+    }
+    .main-block-title-content-left{
+        width: auto;
+    }
+    .main-block-wrapper h2{
+        font-size: 29px;
+        line-height: 43px;
+    }
+}
+@media (max-width: 425px){
+    h2{
+        font-size: 29px;
+        line-height: 43px;
+    }
+    .header-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .logo a img{
+        width: 150px;
+        height: 104px;
+    }
+    .download a img{
+        margin: 5px;
+    }
+    .panel-title{
+        font-weight: 600;
+    }
+    .app-text h2 {
+        font-size: 46px;
+        line-height: 53px;
+        padding: 0 0 20px 0;
+    }
+    .footer{
+        padding-bottom: 20px;
+    }
+    .footer-top, .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-md-4,
+    .col-md-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .main-block-wrapper,
+    .block-card-wrapper,
+    .press{
+        margin: 20px 0 0;
+        padding: 20px 0;
+    }
+    #cardPeach, #cardBlack {
+        height: 575px;
+    }
+}    
+
+@media (max-width: 375px) {
+    .download a img{
+        margin-right: 10px;
+        width: 130px;
+        height: 38px;
+    }
+    .download-app{
+        padding: 30px 0;
+    }
+    
+    .header-title{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .app-text h2{
+        font-size: 28px;
+        line-height: 40px;
+        padding: 0 0 20px 0;
+    }
+    #cardPeach, #cardBlack {
+        height: 500px;
+    }
+    .footer a{
+        padding: 10px 0;
+    }
+}
